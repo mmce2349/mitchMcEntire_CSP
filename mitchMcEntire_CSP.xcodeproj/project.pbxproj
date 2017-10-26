@@ -12,6 +12,13 @@
 		0B1FE75F1FA21F7500123DCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B1FE75D1FA21F7500123DCB /* Main.storyboard */; };
 		0B1FE7611FA21F7500123DCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B1FE7601FA21F7500123DCB /* Assets.xcassets */; };
 		0B1FE7641FA21F7500123DCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B1FE7621FA21F7500123DCB /* LaunchScreen.storyboard */; };
+		0B1FE7701FA2230B00123DCB /* creativityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1FE76F1FA2230B00123DCB /* creativityController.swift */; };
+		0B1FE7721FA2233000123DCB /* abstractionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1FE7711FA2233000123DCB /* abstractionController.swift */; };
+		0B1FE7741FA2235A00123DCB /* dataInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1FE7731FA2235A00123DCB /* dataInfoController.swift */; };
+		0B1FE7761FA2237D00123DCB /* algorithmsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1FE7751FA2237D00123DCB /* algorithmsController.swift */; };
+		0B1FE7781FA2239B00123DCB /* programmingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1FE7771FA2239B00123DCB /* programmingController.swift */; };
+		0B1FE77A1FA223C100123DCB /* internetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1FE7791FA223C100123DCB /* internetController.swift */; };
+		0B1FE77C1FA223E100123DCB /* globalImpactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1FE77B1FA223E100123DCB /* globalImpactController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		0B1FE7601FA21F7500123DCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B1FE7631FA21F7500123DCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B1FE7651FA21F7500123DCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B1FE76F1FA2230B00123DCB /* creativityController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = creativityController.swift; sourceTree = "<group>"; };
+		0B1FE7711FA2233000123DCB /* abstractionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = abstractionController.swift; sourceTree = "<group>"; };
+		0B1FE7731FA2235A00123DCB /* dataInfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataInfoController.swift; sourceTree = "<group>"; };
+		0B1FE7751FA2237D00123DCB /* algorithmsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = algorithmsController.swift; sourceTree = "<group>"; };
+		0B1FE7771FA2239B00123DCB /* programmingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = programmingController.swift; sourceTree = "<group>"; };
+		0B1FE7791FA223C100123DCB /* internetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = internetController.swift; sourceTree = "<group>"; };
+		0B1FE77B1FA223E100123DCB /* globalImpactController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = globalImpactController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +81,13 @@
 			children = (
 				0B1FE7591FA21F7500123DCB /* AppDelegate.swift */,
 				0B1FE75B1FA21F7500123DCB /* ViewController.swift */,
+				0B1FE76F1FA2230B00123DCB /* creativityController.swift */,
+				0B1FE7711FA2233000123DCB /* abstractionController.swift */,
+				0B1FE7731FA2235A00123DCB /* dataInfoController.swift */,
+				0B1FE7751FA2237D00123DCB /* algorithmsController.swift */,
+				0B1FE7771FA2239B00123DCB /* programmingController.swift */,
+				0B1FE7791FA223C100123DCB /* internetController.swift */,
+				0B1FE77B1FA223E100123DCB /* globalImpactController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -168,8 +189,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B1FE77A1FA223C100123DCB /* internetController.swift in Sources */,
+				0B1FE7721FA2233000123DCB /* abstractionController.swift in Sources */,
 				0B1FE75C1FA21F7500123DCB /* ViewController.swift in Sources */,
+				0B1FE77C1FA223E100123DCB /* globalImpactController.swift in Sources */,
 				0B1FE75A1FA21F7500123DCB /* AppDelegate.swift in Sources */,
+				0B1FE7701FA2230B00123DCB /* creativityController.swift in Sources */,
+				0B1FE7741FA2235A00123DCB /* dataInfoController.swift in Sources */,
+				0B1FE7761FA2237D00123DCB /* algorithmsController.swift in Sources */,
+				0B1FE7781FA2239B00123DCB /* programmingController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
