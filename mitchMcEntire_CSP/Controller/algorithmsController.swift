@@ -28,7 +28,7 @@ public class algorithmsController: UIViewController
         let attributesDictionary = [NSAttributedStringKey.font : algorithmText.font]
         let fullAttributedString = NSMutableAttributedString(string: algorithm, attributes: attributesDictionary)
         
-        for step in algorithmsSteps
+        for step in algorithmsSteps// we added steps array explaining how to use java.
         {
             let bullet :String = "🐊"
             let formattedStep :String = "\n\(bullet) \(step)"
@@ -42,7 +42,7 @@ public class algorithmsController: UIViewController
         algorithmText.attributedText = fullAttributedString
     }
     
-    private func createParagraphStyle() -> NSParagraphStyle
+    private func createParagraphStyle() -> NSParagraphStyle// this helped formatt the bullets of the paragraph.
     {
         let paragraphStyle: NSMutableParagraphStyle = NSMutableParagraphStyle()
         paragraphStyle.alignment = .left
