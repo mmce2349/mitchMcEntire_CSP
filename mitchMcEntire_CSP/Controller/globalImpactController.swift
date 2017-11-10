@@ -18,8 +18,14 @@ class globalImpactController: UIViewController
     {
         super.viewDidLoad()
         sketchImage.image = UIImage(named: "AidsDesign" )
-        NeedAddressed = label(text: "Aids is a serious problem that many people deal with around the world. Multiple people die from it, and if we can eliminate this disease the world will be better.")
-        PersonalConnection = label(text: "")
+        
+        var need: String = "Aids is a serious problem that many people deal with around the world. Multiple people die from it, and if we can eliminate this disease the world will be better."
+        var personal: String = "I know that Aids is a very painful disease and I feel like we need to put a stop to it."
+        
+        NeedAddressed.text = need
+        
+        PersonalConnection.text = personal
+        
         // Do any additional setup after loading the view.
     }
 
