@@ -10,11 +10,16 @@ import UIKit
 
 class globalImpactController: UIViewController
 {
-
+    @IBOutlet weak var NeedAddressed: UILabel!
+    @IBOutlet weak var PersonalConnection: UILabel!
+    @IBOutlet weak var sketchImage: UIImageView!
+    
     override func viewDidLoad()
     {
         super.viewDidLoad()
-
+        sketchImage.image = UIImage(named: "AidsDesign" )
+        NeedAddressed = label(text: "Aids is a serious problem that many people deal with around the world. Multiple people die from it, and if we can eliminate this disease the world will be better.")
+        PersonalConnection = label(text: "")
         // Do any additional setup after loading the view.
     }
 
