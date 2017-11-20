@@ -19,9 +19,8 @@ class globalImpactController: UIViewController
         super.viewDidLoad()
         sketchImage.image = UIImage(named: "AidsDesign" )
         
-        var need: String = "Aids is a serious problem that many people deal with around the world. Multiple people die from it, and if we can eliminate this disease the world will be better."
-        var personal: String = "I know that Aids is a very painful disease and I feel like we need to put a stop to it."
-        
+        var need: String = "Aids is a serious problem that many people deal with around the world. Multipl epeople die from it, and if we celiminate this sisease the world will be better."
+        var personal: String = "I know that aids is a very painful disease and I felik we need to put a stop to it. "
         NeedAddressed.text = need
         
         PersonalConnection.text = personal

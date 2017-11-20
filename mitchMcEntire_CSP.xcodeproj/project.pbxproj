@@ -19,6 +19,7 @@
 		0B1FE7781FA2239B00123DCB /* programmingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1FE7771FA2239B00123DCB /* programmingController.swift */; };
 		0B1FE77A1FA223C100123DCB /* internetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1FE7791FA223C100123DCB /* internetController.swift */; };
 		0B1FE77C1FA223E100123DCB /* globalImpactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1FE77B1FA223E100123DCB /* globalImpactController.swift */; };
+		0B49B9031FC329D400C4A8FC /* DrinkableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B49B9021FC329D400C4A8FC /* DrinkableProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		0B1FE7771FA2239B00123DCB /* programmingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = programmingController.swift; sourceTree = "<group>"; };
 		0B1FE7791FA223C100123DCB /* internetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = internetController.swift; sourceTree = "<group>"; };
 		0B1FE77B1FA223E100123DCB /* globalImpactController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = globalImpactController.swift; sourceTree = "<group>"; };
+		0B49B9021FC329D400C4A8FC /* DrinkableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkableProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 		0B1FE76E1FA2200400123DCB /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				0B49B9021FC329D400C4A8FC /* DrinkableProtocol.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B49B9031FC329D400C4A8FC /* DrinkableProtocol.swift in Sources */,
 				0B1FE77A1FA223C100123DCB /* internetController.swift in Sources */,
 				0B1FE7721FA2233000123DCB /* abstractionController.swift in Sources */,
 				0B1FE75C1FA21F7500123DCB /* ViewController.swift in Sources */,
