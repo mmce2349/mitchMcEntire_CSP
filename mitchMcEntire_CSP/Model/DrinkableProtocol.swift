@@ -6,30 +6,39 @@
 //  Copyright © 2017 Mcentire, Mitchell. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
-class DrinkableProtocol: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+public protocol DrinkableProtocol
+{
+    func canDrink() -> Bool
+    func doDrink() -> Void
+}
+public class DrinkableProtocol : drinkable
+{
+    public var drinkState: Bool
+    public init()
+    {
+        self.drinkState = false
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    public func state() -> Void
+    {
+        print("I am drinkable")
+        drinkState = true
     }
-    */
-
+    
+    public func isDrunk() -> Bool
+    {
+        if(drinkState)
+        {
+            print("Drink me!!!")
+        }
+        else
+        {
+                print ("Don't drink me!!!")
+        }
+    }
 }
+
+
+
