@@ -20,6 +20,7 @@
 		0B1FE77A1FA223C100123DCB /* internetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1FE7791FA223C100123DCB /* internetController.swift */; };
 		0B1FE77C1FA223E100123DCB /* globalImpactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1FE77B1FA223E100123DCB /* globalImpactController.swift */; };
 		0B49B9031FC329D400C4A8FC /* DrinkableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B49B9021FC329D400C4A8FC /* DrinkableProtocol.swift */; };
+		0B49B9051FC32D8A00C4A8FC /* drinkable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B49B9041FC32D8A00C4A8FC /* drinkable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		0B1FE7791FA223C100123DCB /* internetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = internetController.swift; sourceTree = "<group>"; };
 		0B1FE77B1FA223E100123DCB /* globalImpactController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = globalImpactController.swift; sourceTree = "<group>"; };
 		0B49B9021FC329D400C4A8FC /* DrinkableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkableProtocol.swift; sourceTree = "<group>"; };
+		0B49B9041FC32D8A00C4A8FC /* drinkable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drinkable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				0B49B9021FC329D400C4A8FC /* DrinkableProtocol.swift */,
+				0B49B9041FC32D8A00C4A8FC /* drinkable.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 				0B1FE77C1FA223E100123DCB /* globalImpactController.swift in Sources */,
 				0B1FE75A1FA21F7500123DCB /* AppDelegate.swift in Sources */,
 				0B1FE7701FA2230B00123DCB /* creativityController.swift in Sources */,
+				0B49B9051FC32D8A00C4A8FC /* drinkable.swift in Sources */,
 				0B1FE7741FA2235A00123DCB /* dataInfoController.swift in Sources */,
 				0B1FE7761FA2237D00123DCB /* algorithmsController.swift in Sources */,
 				0B1FE7781FA2239B00123DCB /* programmingController.swift in Sources */,
