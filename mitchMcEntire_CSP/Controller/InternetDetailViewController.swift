@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import Webkit
+import WebKit
 class InternetDetailViewController: UIViewController
 {
     @IBOutlet weak var textView: UILabel!

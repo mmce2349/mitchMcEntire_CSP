@@ -37,7 +37,7 @@ class abstractionController: UIViewController, UIPageViewControllerDataSource
             if let viewController = orderedAbstractionViews.first
             {
                 setViewController [viewController],
-                                   direction: .forward,
+                direction: .forward,
                                    animated: true,
                                    completion: nil)
             }
