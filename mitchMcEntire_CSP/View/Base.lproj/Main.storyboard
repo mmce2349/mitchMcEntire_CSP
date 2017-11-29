@@ -33,6 +33,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="Xx9-9n-eZo"/>
                     </view>
+                    <connections>
+                        <outlet property="textView" destination="1Xc-B6-ePA" id="WmA-nh-2FA"/>
+                        <outlet property="webView" destination="0cI-rc-Cej" id="CLI-6o-zpg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Sdc-JU-TEY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
