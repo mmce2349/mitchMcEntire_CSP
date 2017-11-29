@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B1761271FCF08EA00AB834C /* InternetMasterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1761261FCF08EA00AB834C /* InternetMasterTableViewController.swift */; };
 		0B1FE75A1FA21F7500123DCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1FE7591FA21F7500123DCB /* AppDelegate.swift */; };
 		0B1FE75C1FA21F7500123DCB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1FE75B1FA21F7500123DCB /* ViewController.swift */; };
 		0B1FE75F1FA21F7500123DCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B1FE75D1FA21F7500123DCB /* Main.storyboard */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B1761261FCF08EA00AB834C /* InternetMasterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetMasterTableViewController.swift; sourceTree = "<group>"; };
 		0B1FE7561FA21F7500123DCB /* mitchMcEntire_CSP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mitchMcEntire_CSP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B1FE7591FA21F7500123DCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B1FE75B1FA21F7500123DCB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				0B1FE7771FA2239B00123DCB /* programmingController.swift */,
 				0B1FE7791FA223C100123DCB /* internetController.swift */,
 				0B1FE77B1FA223E100123DCB /* globalImpactController.swift */,
+				0B1761261FCF08EA00AB834C /* InternetMasterTableViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 			files = (
 				0B49B9031FC329D400C4A8FC /* DrinkableProtocol.swift in Sources */,
 				0B1FE77A1FA223C100123DCB /* internetController.swift in Sources */,
+				0B1761271FCF08EA00AB834C /* InternetMasterTableViewController.swift in Sources */,
 				0B1FE7721FA2233000123DCB /* abstractionController.swift in Sources */,
 				0B1FE75C1FA21F7500123DCB /* ViewController.swift in Sources */,
 				0B1FE77C1FA223E100123DCB /* globalImpactController.swift in Sources */,
