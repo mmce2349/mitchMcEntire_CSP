@@ -62,6 +62,9 @@
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="bWY-Rr-Z0r" kind="showDetail" identifier="showDetail" id="H6h-BJ-eEO"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -464,4 +467,7 @@ Severity of illness, greatest concentration of people with aids, and individual 
         <image name="java" width="735" height="491"/>
         <image name="javaSample" width="1126" height="754"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="H6h-BJ-eEO"/>
+    </inferredMetricsTieBreakers>
 </document>
