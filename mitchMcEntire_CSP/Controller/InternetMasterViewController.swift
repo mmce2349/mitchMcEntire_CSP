@@ -88,7 +88,17 @@ class InternetMasterViewController: UITableViewController
                 
                 if indexPath.row == 0
                 {// replace with definitions. Great time to use """
-                    pageText = "All the definitios you wrote....."
+                    pageText = """
+                            URL - Address of a world wide web page. Uses both DNS and IP
+
+                            DNS- Domain name system which converts alphabetic names into numeric IP addresses.
+
+                            IP - short for internet protocol(Set of rules governing the format of data)
+
+                            TCP- Provides connection between sending and receiving computers, and it has rules to govern delivery of data.
+
+                            Internet- Internet means access to a variety of data from anywhere on the Globe. Internet is used to communicate, inform, produce, and extract data and information for people. Internet connects everyone on the globe together. This is a very useful tool in that communicate is instant. The world uses internet everyday, and it has become a staple in our society. Everyone uses internet.
+                    """
                 }
                 else
                 {
