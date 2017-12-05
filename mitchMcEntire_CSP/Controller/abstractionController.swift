@@ -8,7 +8,7 @@
 
 import UIKit
 
-class abstractionController: UIViewController, UIPageViewControllerDataSource
+class abstractionController: UIPageViewController, UIPageViewControllerDataSource
 {
         
         //MARK: Array of subviews
@@ -36,7 +36,7 @@ class abstractionController: UIViewController, UIPageViewControllerDataSource
             
             if let viewController = orderedAbstractionViews.first
             {
-                setViewControllers([ViewController],
+                setViewControllers([viewController],
                                 direction: .forward,
                                    animated: true,
                                    completion: nil)
@@ -103,7 +103,7 @@ class abstractionController: UIViewController, UIPageViewControllerDataSource
         
         public func presentationIndex(for pageViewController: UIPageViewController) -> Int
         {
-            guard let firstViewController = ViewControllers?.first, let viewControllerIndex = orderedAbstractionViews.index(of: ViewController)
+            guard let firstViewController = viewControllers?.first, let viewControllerIndex = orderedAbstractionViews.index(of: firstViewController)
                 else
             {
                 return 0

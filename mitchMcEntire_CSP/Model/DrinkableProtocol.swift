@@ -8,12 +8,12 @@
 
 import Foundation
 
-public protocol DrinkableProtocol
+public protocol Drinkable
 {
     func canDrink() -> Bool
     func doDrink() -> Void
 }
-public class drinkableProtocol : drinkable
+public class Soda : Drinkable
 {
     public var drinkState: Bool
     public init()
@@ -37,6 +37,15 @@ public class drinkableProtocol : drinkable
         {
                 print ("Don't drink me!!!")
         }
+        return drinkState
+    }
+    
+    public func canDrink()->Bool
+    { return false
+    }
+    public func doDrink()->Void
+    {
+      
     }
 }
 
