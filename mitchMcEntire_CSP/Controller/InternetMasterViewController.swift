@@ -28,9 +28,9 @@ class InternetMasterViewController: UITableViewController
     private func setup() -> Void
     {//TODO: replace with correct links
         addresses = [
-            "http://www.google.com",
+            "https://www.google.com",
             "https://apcentral.collegeboard.org/courses/ap-computer-science-principles?course=ap-computer-science-principles",
-            "http://www.canyonsdistrict.org/",
+            "https://www.canyonsdistrict.org/",
             "https://ctec.canyonsdistrict.org/",
             "https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/index.html",
             "https://twitter.com/?lang=en"
@@ -72,7 +72,7 @@ class InternetMasterViewController: UITableViewController
     {
         let cell = tableView.dequeueResuableCell(withIdentifier: "reuseIdentifier", for: indexPath)
         let currentText = internetTopics[indexPath.row]
-        cell.textLabel.text = currentText
+        cell.textLabel!.text = currentText
         
         return cell
     }
