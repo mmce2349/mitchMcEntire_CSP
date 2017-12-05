@@ -13,7 +13,7 @@ public protocol DrinkableProtocol
     func canDrink() -> Bool
     func doDrink() -> Void
 }
-public class DrinkableProtocol : drinkable
+public class drinkableProtocol : drinkable
 {
     public var drinkState: Bool
     public init()

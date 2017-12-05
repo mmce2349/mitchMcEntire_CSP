@@ -70,7 +70,7 @@ class InternetMasterViewController: UITableViewController
     
     override public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
     {
-        let cell = tableView.dequeueResuableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
         let currentText = internetTopics[indexPath.row]
         cell.textLabel!.text = currentText
         
@@ -108,9 +108,9 @@ class InternetMasterViewController: UITableViewController
                 let controller = segue.destination as! InternetDetailViewController
                 
                 controller.detailAddress = urlString
-                controller.detailText = pageText
+                controller.detailText= pageText
                 controller.navigationItem.leftBarButtonItem = splitViewController?.displayModeButtonItem
-                controller.navigationItem.leftItemsSuppplementBackButton = true
+                controller.navigationItem.leftItemsSupplementBackButton = true
             }
         }
     }

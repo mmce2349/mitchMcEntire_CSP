@@ -36,8 +36,8 @@ class abstractionController: UIViewController, UIPageViewControllerDataSource
             
             if let viewController = orderedAbstractionViews.first
             {
-                setViewController [viewController],
-                direction: .forward,
+                setViewControllers([ViewController],
+                                direction: .forward,
                                    animated: true,
                                    completion: nil)
             }
@@ -103,7 +103,7 @@ class abstractionController: UIViewController, UIPageViewControllerDataSource
         
         public func presentationIndex(for pageViewController: UIPageViewController) -> Int
         {
-            guard let firstViewController = ViewControllers?.first, let viewControllerIndex = orderedAbstractionViews.index(of: viewController)
+            guard let firstViewController = ViewControllers?.first, let viewControllerIndex = orderedAbstractionViews.index(of: ViewController)
                 else
             {
                 return 0
