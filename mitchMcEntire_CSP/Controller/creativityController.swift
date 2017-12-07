@@ -18,8 +18,8 @@ class creativityController: UICollectionViewController, UICollectionViewDelegate
     {
         return [
             UIImage(named: "cute"),
+            UIImage(named: "myArt"),
             UIImage(named: "myArt")
-        
         ]
     }()
     
