@@ -106,6 +106,33 @@ class creativityController: UICollectionViewController, UICollectionViewDelegate
         return CGSize(width: widthPerItem, height: widthPerItem)
     }
     
+    public func collectionView(_ collectionView: UICollectionView,
+                               layout collectionViewLayout: UICollectionViewLayout,
+                               minimumLineSpacingForSectionAt section: Int) -> UIEdgeInsets
+    {
+        return sectionInsets
+    }
+    public func collectionView(_collectionView: UICollectionView,
+                               layout collectionViewLayout: UICollectionViewLayout,
+                               minimumLineSpacingForSectionAt section: Int) -> CGFloat
+    {
+        return sectionInsets.left
+    }
+    override public func collectionView(_ collectionView: UICollectionView,
+                                        shouldSelectItemAt indexPath: IndexPath) -> Bool
+    {
+        
+        if largePhotoIndexPath == indexPath
+        {
+            largePhotoIndexPath = nil
+        }
+        else
+        {
+            largePhotoIndexPath = indexPath
+        }
+        
+        return false
+    }
     override func didReceiveMemoryWarning()
     {
         super.didReceiveMemoryWarning()
