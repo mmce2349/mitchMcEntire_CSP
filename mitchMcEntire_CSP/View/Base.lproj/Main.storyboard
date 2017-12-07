@@ -5,6 +5,7 @@
     </device>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -353,6 +354,65 @@
             </objects>
             <point key="canvasLocation" x="2061.5999999999999" y="1586.3568215892055"/>
         </scene>
+        <!--Creativity Controller-->
+        <scene sceneID="h3f-Nv-C69">
+            <objects>
+                <collectionViewController id="Tjw-8y-zCQ" customClass="creativityController" customModule="mitchMcEntire_CSP" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="wTD-zO-2if">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="L9a-xZ-dED">
+                            <size key="itemSize" width="50" height="50"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Dge-gL-Jpg" customClass="ArtCell" customModule="mitchMcEntire_CSP" customModuleProvider="target">
+                                <rect key="frame" x="62.5" y="0.0" width="250" height="300"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                    <rect key="frame" x="0.0" y="0.0" width="250" height="300"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Uf0-PS-Zra">
+                                            <rect key="frame" x="0.0" y="0.0" width="250" height="250"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y13-lZ-0YE">
+                                            <rect key="frame" x="0.0" y="250" width="250" height="50"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </view>
+                                <constraints>
+                                    <constraint firstAttribute="bottomMargin" secondItem="y13-lZ-0YE" secondAttribute="bottom" id="ROX-ms-6GH"/>
+                                    <constraint firstAttribute="trailingMargin" secondItem="y13-lZ-0YE" secondAttribute="trailing" id="VJB-qU-oxz"/>
+                                    <constraint firstItem="Uf0-PS-Zra" firstAttribute="leading" secondItem="Dge-gL-Jpg" secondAttribute="leading" id="WXE-YZ-Yx3"/>
+                                    <constraint firstAttribute="bottom" secondItem="Uf0-PS-Zra" secondAttribute="bottom" constant="50" id="Wdh-sH-NQW"/>
+                                    <constraint firstItem="y13-lZ-0YE" firstAttribute="leading" secondItem="Dge-gL-Jpg" secondAttribute="leadingMargin" id="hu9-3N-6xG"/>
+                                    <constraint firstItem="y13-lZ-0YE" firstAttribute="top" secondItem="Uf0-PS-Zra" secondAttribute="bottom" id="uo2-ry-3Jf"/>
+                                    <constraint firstAttribute="trailing" secondItem="Uf0-PS-Zra" secondAttribute="trailing" id="vJh-xK-0dl"/>
+                                </constraints>
+                                <size key="customSize" width="250" height="300"/>
+                                <connections>
+                                    <outlet property="imageName" destination="y13-lZ-0YE" id="QXk-nd-ivj"/>
+                                    <outlet property="imageView" destination="Uf0-PS-Zra" id="Haj-Al-hAP"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="Tjw-8y-zCQ" id="201-qR-wOt"/>
+                            <outlet property="delegate" destination="Tjw-8y-zCQ" id="cKn-xf-TPO"/>
+                        </connections>
+                    </collectionView>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sTd-eI-XJR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1726" y="701"/>
+        </scene>
         <!--Global Impact Controller-->
         <scene sceneID="Z3p-OS-yQF">
             <objects>
@@ -424,21 +484,6 @@ Severity of illness, greatest concentration of people with aids, and individual 
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2UQ-sY-9df" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="845.60000000000002" y="690.40479760119945"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="gWF-0u-6Hb">
-            <objects>
-                <viewController id="SkN-jg-M4H" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="p5n-bR-pVY">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <viewLayoutGuide key="safeArea" id="rP3-fo-3d6"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="2Vl-VT-vMY" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1775" y="-978"/>
         </scene>
         <!--Algorithms Controller-->
         <scene sceneID="c0u-5S-bSC">
