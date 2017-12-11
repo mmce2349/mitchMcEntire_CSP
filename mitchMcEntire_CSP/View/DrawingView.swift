@@ -45,30 +45,24 @@ class DrawingView: UIView {
         return stickFigure
     }
    
-    private func drawWithFriend() -> UIBezierPath
-    {
-        let drawWithFriend = UIBezierPath()
-        UIColor.black.setStroke()
-        drawWithFriend.lineWidth = 3.0
-//      //  drawWithFriend.addArc(withCenter: CGPoint(x: 0, y:0),
-//                              radius: CGFloat(0),
-//                              startAngle:CGFloat(0),
-//                              endAngle: CGFloat(0) * CGFloat.pi,
-//                              clockwise: true)
-//        drawWithFriend.move(to: CGPoint(x: 200, y: 220))
-//        drawWithFriend.addLine(to: CGPoint(x: 220, y: 300))
-        
-        //maybe a square?
-        
-        
-        
-        
-        
-        
-        drawWithFriend.fill()
-        drawWithFriend.stroke()
-        return drawWithFriend
-    }
+//    private func drawWithFriend() -> UIBezierPath
+//    {
+//        let drawWithFriend = UIBezierPath()
+//        UIColor.black.setStroke()
+//        drawWithFriend.lineWidth = 3.0
+////      //  drawWithFriend.addArc(withCenter: CGPoint(x: 0, y:0),
+////                              radius: CGFloat(0),
+////                              startAngle:CGFloat(0),
+////                              endAngle: CGFloat(0) * CGFloat.pi,
+////                              clockwise: true)
+////        drawWithFriend.move(to: CGPoint(x: 200, y: 220))
+////        drawWithFriend.addLine(to: CGPoint(x: 220, y: 300))
+//
+//        //maybe a square?
+//        drawWithFriend.fill()
+//        drawWithFriend.stroke()
+//        return drawWithFriend
+//    }
     
     private func drawHappyTree() ->Void
     {
