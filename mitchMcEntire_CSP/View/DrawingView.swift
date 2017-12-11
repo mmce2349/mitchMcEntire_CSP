@@ -58,6 +58,7 @@ class DrawingView: UIView {
 //        drawWithFriend.move(to: CGPoint(x: 200, y: 220))
 //        drawWithFriend.addLine(to: CGPoint(x: 220, y: 300))
         
+        //maybe a square?
         
         
         
