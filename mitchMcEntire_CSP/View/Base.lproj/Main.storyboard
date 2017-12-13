@@ -112,7 +112,7 @@
         <scene sceneID="QB7-NW-Nbd">
             <objects>
                 <viewController id="a8m-O2-8sV" customClass="programmingController" customModule="mitchMcEntire_CSP" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="fv8-DT-YQy">
+                    <view key="view" contentMode="scaleToFill" id="fv8-DT-YQy" customClass="SKView">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
