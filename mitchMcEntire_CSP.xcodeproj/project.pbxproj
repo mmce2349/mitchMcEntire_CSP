@@ -21,6 +21,15 @@
 		0B1FE7761FA2237D00123DCB /* algorithmsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1FE7751FA2237D00123DCB /* algorithmsController.swift */; };
 		0B1FE7781FA2239B00123DCB /* programmingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1FE7771FA2239B00123DCB /* programmingController.swift */; };
 		0B1FE77C1FA223E100123DCB /* globalImpactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1FE77B1FA223E100123DCB /* globalImpactController.swift */; };
+		0B22309E1FE173E700B2D61B /* GameController in Resources */ = {isa = PBXBuildFile; fileRef = 0B22309D1FE173E700B2D61B /* GameController */; };
+		0B2230A01FE174A500B2D61B /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 0B22309F1FE174A500B2D61B /* Sounds */; };
+		0B2230A21FE176C700B2D61B /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2230A11FE176C700B2D61B /* Utilities.swift */; };
+		0B2230A41FE176F800B2D61B /* StarField.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0B2230A31FE176F800B2D61B /* StarField.sks */; };
+		0B2230AA1FE1778000B2D61B /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2230A51FE1777F00B2D61B /* Player.swift */; };
+		0B2230AB1FE1778000B2D61B /* InvaderLaser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2230A61FE1777F00B2D61B /* InvaderLaser.swift */; };
+		0B2230AC1FE1778000B2D61B /* Invader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2230A71FE1778000B2D61B /* Invader.swift */; };
+		0B2230AD1FE1778000B2D61B /* PlayerLaser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2230A81FE1778000B2D61B /* PlayerLaser.swift */; };
+		0B2230AE1FE1778000B2D61B /* Projectile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2230A91FE1778000B2D61B /* Projectile.swift */; };
 		0B297D591FD99C9700EEC7ED /* ArtCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B297D581FD99C9700EEC7ED /* ArtCell.swift */; };
 		0B35E1231FD6EFCF0047A864 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B35E1221FD6EFCF0047A864 /* DrawingView.swift */; };
 		0B49B9031FC329D400C4A8FC /* DrinkableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B49B9021FC329D400C4A8FC /* DrinkableProtocol.swift */; };
@@ -44,6 +53,15 @@
 		0B1FE7751FA2237D00123DCB /* algorithmsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = algorithmsController.swift; sourceTree = "<group>"; };
 		0B1FE7771FA2239B00123DCB /* programmingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = programmingController.swift; sourceTree = "<group>"; };
 		0B1FE77B1FA223E100123DCB /* globalImpactController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = globalImpactController.swift; sourceTree = "<group>"; };
+		0B22309D1FE173E700B2D61B /* GameController */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GameController; sourceTree = "<group>"; };
+		0B22309F1FE174A500B2D61B /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
+		0B2230A11FE176C700B2D61B /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		0B2230A31FE176F800B2D61B /* StarField.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = StarField.sks; sourceTree = "<group>"; };
+		0B2230A51FE1777F00B2D61B /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		0B2230A61FE1777F00B2D61B /* InvaderLaser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvaderLaser.swift; sourceTree = "<group>"; };
+		0B2230A71FE1778000B2D61B /* Invader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Invader.swift; sourceTree = "<group>"; };
+		0B2230A81FE1778000B2D61B /* PlayerLaser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerLaser.swift; sourceTree = "<group>"; };
+		0B2230A91FE1778000B2D61B /* Projectile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Projectile.swift; sourceTree = "<group>"; };
 		0B297D581FD99C9700EEC7ED /* ArtCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCell.swift; sourceTree = "<group>"; };
 		0B35E1221FD6EFCF0047A864 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
 		0B49B9021FC329D400C4A8FC /* DrinkableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkableProtocol.swift; sourceTree = "<group>"; };
@@ -101,6 +119,7 @@
 		0B1FE76B1FA21F9C00123DCB /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				0B22309D1FE173E700B2D61B /* GameController */,
 				0B1FE7591FA21F7500123DCB /* AppDelegate.swift */,
 				0B1FE75B1FA21F7500123DCB /* ViewController.swift */,
 				0B1FE76F1FA2230B00123DCB /* creativityController.swift */,
@@ -119,6 +138,8 @@
 		0B1FE76C1FA21FB100123DCB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0B2230A11FE176C700B2D61B /* Utilities.swift */,
+				0B22309F1FE174A500B2D61B /* Sounds */,
 				0B1FE7601FA21F7500123DCB /* Assets.xcassets */,
 				0B1FE7651FA21F7500123DCB /* Info.plist */,
 			);
@@ -128,6 +149,7 @@
 		0B1FE76D1FA21FBB00123DCB /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0B2230A31FE176F800B2D61B /* StarField.sks */,
 				0B1FE75D1FA21F7500123DCB /* Main.storyboard */,
 				0B1FE7621FA21F7500123DCB /* LaunchScreen.storyboard */,
 				0B35E1221FD6EFCF0047A864 /* DrawingView.swift */,
@@ -138,6 +160,11 @@
 		0B1FE76E1FA2200400123DCB /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				0B2230A71FE1778000B2D61B /* Invader.swift */,
+				0B2230A61FE1777F00B2D61B /* InvaderLaser.swift */,
+				0B2230A51FE1777F00B2D61B /* Player.swift */,
+				0B2230A81FE1778000B2D61B /* PlayerLaser.swift */,
+				0B2230A91FE1778000B2D61B /* Projectile.swift */,
 				0B49B9021FC329D400C4A8FC /* DrinkableProtocol.swift */,
 				0B49B9041FC32D8A00C4A8FC /* drinkable.swift */,
 			);
@@ -203,6 +230,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B2230A41FE176F800B2D61B /* StarField.sks in Resources */,
+				0B2230A01FE174A500B2D61B /* Sounds in Resources */,
+				0B22309E1FE173E700B2D61B /* GameController in Resources */,
 				0B1FE7641FA21F7500123DCB /* LaunchScreen.storyboard in Resources */,
 				0B1FE7611FA21F7500123DCB /* Assets.xcassets in Resources */,
 				0B1FE75F1FA21F7500123DCB /* Main.storyboard in Resources */,
@@ -216,16 +246,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B2230AE1FE1778000B2D61B /* Projectile.swift in Sources */,
 				0B49B9031FC329D400C4A8FC /* DrinkableProtocol.swift in Sources */,
+				0B2230AC1FE1778000B2D61B /* Invader.swift in Sources */,
 				0B297D591FD99C9700EEC7ED /* ArtCell.swift in Sources */,
 				0B17612B1FCF0AC700AB834C /* InternetMasterViewController.swift in Sources */,
+				0B2230A21FE176C700B2D61B /* Utilities.swift in Sources */,
+				0B2230AA1FE1778000B2D61B /* Player.swift in Sources */,
 				0B1FE7721FA2233000123DCB /* abstractionController.swift in Sources */,
 				0B1FE75C1FA21F7500123DCB /* ViewController.swift in Sources */,
 				0B1761291FCF09DA00AB834C /* InternetDetailViewController.swift in Sources */,
 				0B35E1231FD6EFCF0047A864 /* DrawingView.swift in Sources */,
 				0B1FE77C1FA223E100123DCB /* globalImpactController.swift in Sources */,
 				0B1FE75A1FA21F7500123DCB /* AppDelegate.swift in Sources */,
+				0B2230AD1FE1778000B2D61B /* PlayerLaser.swift in Sources */,
 				0B1FE7701FA2230B00123DCB /* creativityController.swift in Sources */,
+				0B2230AB1FE1778000B2D61B /* InvaderLaser.swift in Sources */,
 				0B49B9051FC32D8A00C4A8FC /* drinkable.swift in Sources */,
 				0B1FE7741FA2235A00123DCB /* dataInfoController.swift in Sources */,
 				0B1FE7761FA2237D00123DCB /* algorithmsController.swift in Sources */,
