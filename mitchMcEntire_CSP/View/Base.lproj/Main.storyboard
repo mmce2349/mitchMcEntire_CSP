@@ -108,6 +108,21 @@
             </objects>
             <point key="canvasLocation" x="-1970" y="-1411"/>
         </scene>
+        <!--Programming Controller-->
+        <scene sceneID="QB7-NW-Nbd">
+            <objects>
+                <viewController id="a8m-O2-8sV" customClass="programmingController" customModule="mitchMcEntire_CSP" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fv8-DT-YQy">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="EHy-hK-pJy"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Oog-j8-w7p" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1070" y="-188"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -159,6 +174,14 @@
                                 <state key="normal" title="creativity"/>
                                 <connections>
                                     <segue destination="4yW-iL-WVR" kind="show" id="7Qf-Dm-5Lx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kbJ-69-wKE">
+                                <rect key="frame" x="42" y="46" width="120" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Programming"/>
+                                <connections>
+                                    <segue destination="a8m-O2-8sV" kind="show" id="9az-E2-eRe"/>
                                 </connections>
                             </button>
                         </subviews>
