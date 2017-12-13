@@ -21,7 +21,6 @@
 		0B1FE7761FA2237D00123DCB /* algorithmsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1FE7751FA2237D00123DCB /* algorithmsController.swift */; };
 		0B1FE7781FA2239B00123DCB /* programmingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1FE7771FA2239B00123DCB /* programmingController.swift */; };
 		0B1FE77C1FA223E100123DCB /* globalImpactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1FE77B1FA223E100123DCB /* globalImpactController.swift */; };
-		0B2230A01FE174A500B2D61B /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 0B22309F1FE174A500B2D61B /* Sounds */; };
 		0B2230A21FE176C700B2D61B /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2230A11FE176C700B2D61B /* Utilities.swift */; };
 		0B2230A41FE176F800B2D61B /* StarField.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0B2230A31FE176F800B2D61B /* StarField.sks */; };
 		0B2230AA1FE1778000B2D61B /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2230A51FE1777F00B2D61B /* Player.swift */; };
@@ -55,7 +54,6 @@
 		0B1FE7751FA2237D00123DCB /* algorithmsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = algorithmsController.swift; sourceTree = "<group>"; };
 		0B1FE7771FA2239B00123DCB /* programmingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = programmingController.swift; sourceTree = "<group>"; };
 		0B1FE77B1FA223E100123DCB /* globalImpactController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = globalImpactController.swift; sourceTree = "<group>"; };
-		0B22309F1FE174A500B2D61B /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
 		0B2230A11FE176C700B2D61B /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		0B2230A31FE176F800B2D61B /* StarField.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = StarField.sks; sourceTree = "<group>"; };
 		0B2230A51FE1777F00B2D61B /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
@@ -66,6 +64,11 @@
 		0B2230AF1FE181E700B2D61B /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		0B2230B01FE181E700B2D61B /* StartScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScene.swift; sourceTree = "<group>"; };
 		0B2230B11FE181E800B2D61B /* LevelCompleteScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelCompleteScene.swift; sourceTree = "<group>"; };
+		0B2230B71FE1881E00B2D61B /* boss sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "boss sound.mp3"; sourceTree = "<group>"; };
+		0B2230B81FE1881F00B2D61B /* invader sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "invader sound.mp3"; sourceTree = "<group>"; };
+		0B2230B91FE1881F00B2D61B /* powerup sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "powerup sound.mp3"; sourceTree = "<group>"; };
+		0B2230BA1FE1881F00B2D61B /* laser sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "laser sound.mp3"; sourceTree = "<group>"; };
+		0B2230BB1FE1881F00B2D61B /* extra sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "extra sound.mp3"; sourceTree = "<group>"; };
 		0B297D581FD99C9700EEC7ED /* ArtCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCell.swift; sourceTree = "<group>"; };
 		0B35E1221FD6EFCF0047A864 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
 		0B49B9021FC329D400C4A8FC /* DrinkableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkableProtocol.swift; sourceTree = "<group>"; };
@@ -141,8 +144,8 @@
 		0B1FE76C1FA21FB100123DCB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0B2230BC1FE1882D00B2D61B /* Sounds */,
 				0B2230A11FE176C700B2D61B /* Utilities.swift */,
-				0B22309F1FE174A500B2D61B /* Sounds */,
 				0B1FE7601FA21F7500123DCB /* Assets.xcassets */,
 				0B1FE7651FA21F7500123DCB /* Info.plist */,
 			);
@@ -184,6 +187,18 @@
 			);
 			name = GameController;
 			path = "New Group";
+			sourceTree = "<group>";
+		};
+		0B2230BC1FE1882D00B2D61B /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				0B2230B71FE1881E00B2D61B /* boss sound.mp3 */,
+				0B2230BB1FE1881F00B2D61B /* extra sound.mp3 */,
+				0B2230B81FE1881F00B2D61B /* invader sound.mp3 */,
+				0B2230BA1FE1881F00B2D61B /* laser sound.mp3 */,
+				0B2230B91FE1881F00B2D61B /* powerup sound.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,7 +261,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B2230A41FE176F800B2D61B /* StarField.sks in Resources */,
-				0B2230A01FE174A500B2D61B /* Sounds in Resources */,
 				0B1FE7641FA21F7500123DCB /* LaunchScreen.storyboard in Resources */,
 				0B1FE7611FA21F7500123DCB /* Assets.xcassets in Resources */,
 				0B1FE75F1FA21F7500123DCB /* Main.storyboard in Resources */,
