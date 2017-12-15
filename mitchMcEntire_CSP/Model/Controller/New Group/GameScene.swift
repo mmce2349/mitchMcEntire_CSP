@@ -84,8 +84,11 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
             self.enumerateChildNodes(withName: "invader")
             {
                 node, stop in
+                let invader = node as! SKSpriteNode
+                invader.position.y -= CGFloat(10)
             
             }
+            changeDirection = false
             
         }
         
