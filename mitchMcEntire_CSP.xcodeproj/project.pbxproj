@@ -32,6 +32,7 @@
 		0B2230B31FE181E800B2D61B /* StartScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2230B01FE181E700B2D61B /* StartScene.swift */; };
 		0B2230B41FE181E800B2D61B /* LevelCompleteScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2230B11FE181E800B2D61B /* LevelCompleteScene.swift */; };
 		0B297D591FD99C9700EEC7ED /* ArtCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B297D581FD99C9700EEC7ED /* ArtCell.swift */; };
+		0B336D821FE968740099F608 /* DeathScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B336D811FE968740099F608 /* DeathScene.swift */; };
 		0B35E1231FD6EFCF0047A864 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B35E1221FD6EFCF0047A864 /* DrawingView.swift */; };
 		0B49B9031FC329D400C4A8FC /* DrinkableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B49B9021FC329D400C4A8FC /* DrinkableProtocol.swift */; };
 		0B49B9051FC32D8A00C4A8FC /* drinkable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B49B9041FC32D8A00C4A8FC /* drinkable.swift */; };
@@ -70,6 +71,7 @@
 		0B2230BA1FE1881F00B2D61B /* laser sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "laser sound.mp3"; sourceTree = "<group>"; };
 		0B2230BB1FE1881F00B2D61B /* extra sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "extra sound.mp3"; sourceTree = "<group>"; };
 		0B297D581FD99C9700EEC7ED /* ArtCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCell.swift; sourceTree = "<group>"; };
+		0B336D811FE968740099F608 /* DeathScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeathScene.swift; sourceTree = "<group>"; };
 		0B35E1221FD6EFCF0047A864 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
 		0B49B9021FC329D400C4A8FC /* DrinkableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkableProtocol.swift; sourceTree = "<group>"; };
 		0B49B9041FC32D8A00C4A8FC /* drinkable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drinkable.swift; sourceTree = "<group>"; };
@@ -184,6 +186,7 @@
 				0B2230AF1FE181E700B2D61B /* GameScene.swift */,
 				0B2230B11FE181E800B2D61B /* LevelCompleteScene.swift */,
 				0B2230B01FE181E700B2D61B /* StartScene.swift */,
+				0B336D811FE968740099F608 /* DeathScene.swift */,
 			);
 			name = GameController;
 			path = "New Group";
@@ -297,6 +300,7 @@
 				0B1FE7781FA2239B00123DCB /* programmingController.swift in Sources */,
 				0B2230B41FE181E800B2D61B /* LevelCompleteScene.swift in Sources */,
 				0B2230B31FE181E800B2D61B /* StartScene.swift in Sources */,
+				0B336D821FE968740099F608 /* DeathScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
