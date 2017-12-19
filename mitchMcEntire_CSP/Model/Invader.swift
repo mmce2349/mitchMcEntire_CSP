@@ -40,7 +40,7 @@ public class Invader: SKSpriteNode
     //MARK: - Invader methods section
     public func fireBullet(scene: SKScene) -> Void
     {
-        let bullet = InvaderBullet(imageName: "laser", bulletSound: nil)
+        let bullet = InvaderLaser(imageName: "laser", bulletSound: nil)
         bullet.position.x = self.position.x
         bullet.position.y = self.position.y - self.size.height/2
         scene.addChild(bullet)

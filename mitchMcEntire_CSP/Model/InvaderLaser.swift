@@ -9,7 +9,7 @@
 import UIKit
 import SpriteKit
 
-public class InvaderBullet: Projectile
+public class InvaderLaser: Projectile
 {
     override init(imageName: String, bulletSound:String?)
     {
@@ -25,17 +25,6 @@ public class InvaderBullet: Projectile
     required public init?(coder aDecoder: NSCoder)
     {
         super.init(coder: aDecoder)
-    }
-    
-    public func fireBullet(scene: SKScene) -> Void
-    {
-        let bullet = InvaderBullet(imageName: "laser", bulletSound: nil)
-        bullet.position.x = self.position.x
-        bullet.position.y = self.position.y - self.size.height/2
-        scene.addChild(bullet)
-        let moveBulletAction = SKAction.move(to:CGPoint(x:self.position.x, y: 0 - bullet.size.height), duration: 2.0)
-        let removeBulletAction = SKAction.removeFromParent()
-        bullet.run(SKAction.sequence([moveBulletAction,removeBulletAction]))
     }
     
 }
