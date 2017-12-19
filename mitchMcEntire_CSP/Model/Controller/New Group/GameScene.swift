@@ -79,7 +79,7 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
             
         }
         
-        if(changeDirection == true)
+        if(changeDirection)
         {
             self.invaderSpeed *= -1
             self.enumerateChildNodes(withName: "invader")
