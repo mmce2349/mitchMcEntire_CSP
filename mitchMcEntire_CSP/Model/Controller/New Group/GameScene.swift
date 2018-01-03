@@ -14,7 +14,7 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
 {
     //MARK: Invader Data
     let rowsOfInvaders : Int = 4
-    var invaderSpeed : Int = 2
+    var invaderSpeed : Double = 2
     var invadersThatCanFire : [Invader] = []
     
     //MARK: Player Data
@@ -160,7 +160,7 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
         starField?.zPosition = -1000
         addChild(starField!)
         
-        backgroundColor = UIColor.magenta
+        backgroundColor = UIColor.black
         rightBounds = self.size.width - 30
         setupInvaders()
         setupPlayer()
@@ -233,6 +233,49 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
         {
             print("Player and Invader Collision Contact" )
         }
+        if((firstBody.categoryBitMask & CollisionCategories.Player != 0) &&
+            (secondBody.categoryBitMask & CollisionCategories.InvaderBullet != 0))
+        {
+            player.die()
+        }
+        if((firstBody.categoryBitMask & CollisionCategories.Invader != 0) &&
+            (secondBody.categoryBitMask & CollisionCategories.Player != 0))
+        {
+            player.kill()
+        }
+        if((firstBody.categoryBitMask & CollisionCategories.Invader != 0) &&
+            (secondBody.categoryBitMask & CollisionCategories.PlayerBullet != 0))
+        {
+            if (contact.bodyA.node?.parent == nil || contact.bodyB.node?.parent == nil)
+            {
+                return
+            }
+            
+            let theInvader = firstBody.node as! Invader
+            let newInvaderRow = theInvader.invaderRow - 1
+            let newInvaderCol = theInvader.invaderCol
+            if(newInvaderRow >= 1)
+            {
+                self.enumerateChildNodes(withName: "invader")
+                {
+                    node, stop in
+                    let invader = node as! Invader
+                    if invader.invaderRow == newInvaderRow && invader.invaderCol == newInvaderCol
+                    {
+                        self.invadersThatCanFire.append(invader)
+                        stop.pointee = true
+                    }
+                }
+            }
+            let invaderIndex = invadersThatCanFire.index(of: firstBody.node as! Invader)
+            if(invaderIndex != nil)
+            {
+                invadersThatCanFire.remove(at: invaderIndex!)
+            }
+            theInvader.removeFromParent()
+            secondBody.node?.removeFromParent()
+        }
+
     }
     
 }
