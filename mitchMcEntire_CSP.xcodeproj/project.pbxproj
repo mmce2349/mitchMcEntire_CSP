@@ -17,7 +17,6 @@
 		0B1FE7641FA21F7500123DCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B1FE7621FA21F7500123DCB /* LaunchScreen.storyboard */; };
 		0B1FE7701FA2230B00123DCB /* creativityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1FE76F1FA2230B00123DCB /* creativityController.swift */; };
 		0B1FE7721FA2233000123DCB /* abstractionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1FE7711FA2233000123DCB /* abstractionController.swift */; };
-		0B1FE7741FA2235A00123DCB /* dataInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1FE7731FA2235A00123DCB /* dataInfoController.swift */; };
 		0B1FE7761FA2237D00123DCB /* algorithmsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1FE7751FA2237D00123DCB /* algorithmsController.swift */; };
 		0B1FE7781FA2239B00123DCB /* programmingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1FE7771FA2239B00123DCB /* programmingController.swift */; };
 		0B1FE77C1FA223E100123DCB /* globalImpactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1FE77B1FA223E100123DCB /* globalImpactController.swift */; };
@@ -34,6 +33,8 @@
 		0B297D591FD99C9700EEC7ED /* ArtCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B297D581FD99C9700EEC7ED /* ArtCell.swift */; };
 		0B336D821FE968740099F608 /* DeathScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B336D811FE968740099F608 /* DeathScene.swift */; };
 		0B35E1231FD6EFCF0047A864 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B35E1221FD6EFCF0047A864 /* DrawingView.swift */; };
+		0B37D6AD1FFFDC69006C1AF2 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B37D6AC1FFFDC69006C1AF2 /* DataViewController.swift */; };
+		0B37D6AF1FFFDCD2006C1AF2 /* BucketItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B37D6AE1FFFDCD2006C1AF2 /* BucketItemCell.swift */; };
 		0B49B9031FC329D400C4A8FC /* DrinkableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B49B9021FC329D400C4A8FC /* DrinkableProtocol.swift */; };
 		0B49B9051FC32D8A00C4A8FC /* drinkable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B49B9041FC32D8A00C4A8FC /* drinkable.swift */; };
 /* End PBXBuildFile section */
@@ -51,7 +52,6 @@
 		0B1FE7651FA21F7500123DCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B1FE76F1FA2230B00123DCB /* creativityController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = creativityController.swift; sourceTree = "<group>"; };
 		0B1FE7711FA2233000123DCB /* abstractionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = abstractionController.swift; sourceTree = "<group>"; };
-		0B1FE7731FA2235A00123DCB /* dataInfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataInfoController.swift; sourceTree = "<group>"; };
 		0B1FE7751FA2237D00123DCB /* algorithmsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = algorithmsController.swift; sourceTree = "<group>"; };
 		0B1FE7771FA2239B00123DCB /* programmingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = programmingController.swift; sourceTree = "<group>"; };
 		0B1FE77B1FA223E100123DCB /* globalImpactController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = globalImpactController.swift; sourceTree = "<group>"; };
@@ -73,6 +73,8 @@
 		0B297D581FD99C9700EEC7ED /* ArtCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCell.swift; sourceTree = "<group>"; };
 		0B336D811FE968740099F608 /* DeathScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeathScene.swift; sourceTree = "<group>"; };
 		0B35E1221FD6EFCF0047A864 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
+		0B37D6AC1FFFDC69006C1AF2 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		0B37D6AE1FFFDCD2006C1AF2 /* BucketItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketItemCell.swift; sourceTree = "<group>"; };
 		0B49B9021FC329D400C4A8FC /* DrinkableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkableProtocol.swift; sourceTree = "<group>"; };
 		0B49B9041FC32D8A00C4A8FC /* drinkable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drinkable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -132,13 +134,13 @@
 				0B1FE75B1FA21F7500123DCB /* ViewController.swift */,
 				0B1FE76F1FA2230B00123DCB /* creativityController.swift */,
 				0B1FE7711FA2233000123DCB /* abstractionController.swift */,
-				0B1FE7731FA2235A00123DCB /* dataInfoController.swift */,
 				0B1FE7751FA2237D00123DCB /* algorithmsController.swift */,
 				0B1FE7771FA2239B00123DCB /* programmingController.swift */,
 				0B1FE77B1FA223E100123DCB /* globalImpactController.swift */,
 				0B1761281FCF09DA00AB834C /* InternetDetailViewController.swift */,
 				0B17612A1FCF0AC700AB834C /* InternetMasterViewController.swift */,
 				0B297D581FD99C9700EEC7ED /* ArtCell.swift */,
+				0B37D6B01FFFDD0B006C1AF2 /* DataView */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -202,6 +204,15 @@
 				0B2230B91FE1881F00B2D61B /* powerup sound.mp3 */,
 			);
 			path = Sounds;
+			sourceTree = "<group>";
+		};
+		0B37D6B01FFFDD0B006C1AF2 /* DataView */ = {
+			isa = PBXGroup;
+			children = (
+				0B37D6AC1FFFDC69006C1AF2 /* DataViewController.swift */,
+				0B37D6AE1FFFDCD2006C1AF2 /* BucketItemCell.swift */,
+			);
+			path = DataView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,7 +292,9 @@
 				0B49B9031FC329D400C4A8FC /* DrinkableProtocol.swift in Sources */,
 				0B2230AC1FE1778000B2D61B /* Invader.swift in Sources */,
 				0B297D591FD99C9700EEC7ED /* ArtCell.swift in Sources */,
+				0B37D6AD1FFFDC69006C1AF2 /* DataViewController.swift in Sources */,
 				0B17612B1FCF0AC700AB834C /* InternetMasterViewController.swift in Sources */,
+				0B37D6AF1FFFDCD2006C1AF2 /* BucketItemCell.swift in Sources */,
 				0B2230A21FE176C700B2D61B /* Utilities.swift in Sources */,
 				0B2230AA1FE1778000B2D61B /* Player.swift in Sources */,
 				0B1FE7721FA2233000123DCB /* abstractionController.swift in Sources */,
@@ -295,7 +308,6 @@
 				0B1FE7701FA2230B00123DCB /* creativityController.swift in Sources */,
 				0B2230AB1FE1778000B2D61B /* InvaderLaser.swift in Sources */,
 				0B49B9051FC32D8A00C4A8FC /* drinkable.swift in Sources */,
-				0B1FE7741FA2235A00123DCB /* dataInfoController.swift in Sources */,
 				0B1FE7761FA2237D00123DCB /* algorithmsController.swift in Sources */,
 				0B1FE7781FA2239B00123DCB /* programmingController.swift in Sources */,
 				0B2230B41FE181E800B2D61B /* LevelCompleteScene.swift in Sources */,
