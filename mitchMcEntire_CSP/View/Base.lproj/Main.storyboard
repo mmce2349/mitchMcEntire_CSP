@@ -134,9 +134,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ft8-44-4zy">
                                 <rect key="frame" x="263" y="20" width="84" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Split view"/>
+                                <state key="normal" title="Internet"/>
                                 <connections>
-                                    <segue destination="nJX-OM-WYO" kind="show" id="hx6-9M-ayk"/>
+                                    <segue destination="nJX-OM-WYO" kind="show" id="QNv-0t-8c6"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6US-ld-nq3">
@@ -583,6 +583,6 @@ Severity of illness, greatest concentration of people with aids, and individual 
         <image name="javaSample" width="1126" height="754"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="H6h-BJ-eEO"/>
+        <segue reference="dem-hu-cK2"/>
     </inferredMetricsTieBreakers>
 </document>
