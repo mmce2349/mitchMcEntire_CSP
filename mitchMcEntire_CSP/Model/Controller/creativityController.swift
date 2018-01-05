@@ -19,7 +19,7 @@ class creativityController: UICollectionViewController, UICollectionViewDelegate
         return [
             UIImage(named: "CodingHaiku"),
             UIImage(named: "myArt"),
-            UIImage(named: "myArt")
+            UIImage(named: "CodingHaiku")
         ]
     }()
     
