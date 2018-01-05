@@ -35,6 +35,8 @@
 		0B35E1231FD6EFCF0047A864 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B35E1221FD6EFCF0047A864 /* DrawingView.swift */; };
 		0B37D6AD1FFFDC69006C1AF2 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B37D6AC1FFFDC69006C1AF2 /* DataViewController.swift */; };
 		0B37D6AF1FFFDCD2006C1AF2 /* BucketItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B37D6AE1FFFDCD2006C1AF2 /* BucketItemCell.swift */; };
+		0B37D6B21FFFDE6C006C1AF2 /* BucketItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B37D6B11FFFDE6C006C1AF2 /* BucketItem.swift */; };
+		0B37D6B41FFFDEC8006C1AF2 /* bucket.csv in Resources */ = {isa = PBXBuildFile; fileRef = 0B37D6B31FFFDEC8006C1AF2 /* bucket.csv */; };
 		0B49B9031FC329D400C4A8FC /* DrinkableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B49B9021FC329D400C4A8FC /* DrinkableProtocol.swift */; };
 		0B49B9051FC32D8A00C4A8FC /* drinkable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B49B9041FC32D8A00C4A8FC /* drinkable.swift */; };
 /* End PBXBuildFile section */
@@ -75,6 +77,8 @@
 		0B35E1221FD6EFCF0047A864 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
 		0B37D6AC1FFFDC69006C1AF2 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
 		0B37D6AE1FFFDCD2006C1AF2 /* BucketItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketItemCell.swift; sourceTree = "<group>"; };
+		0B37D6B11FFFDE6C006C1AF2 /* BucketItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketItem.swift; sourceTree = "<group>"; };
+		0B37D6B31FFFDEC8006C1AF2 /* bucket.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = bucket.csv; path = ../../../../../Downloads/bucket.csv; sourceTree = "<group>"; };
 		0B49B9021FC329D400C4A8FC /* DrinkableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkableProtocol.swift; sourceTree = "<group>"; };
 		0B49B9041FC32D8A00C4A8FC /* drinkable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drinkable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -148,6 +152,7 @@
 		0B1FE76C1FA21FB100123DCB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0B37D6B31FFFDEC8006C1AF2 /* bucket.csv */,
 				0B2230BC1FE1882D00B2D61B /* Sounds */,
 				0B2230A11FE176C700B2D61B /* Utilities.swift */,
 				0B1FE7601FA21F7500123DCB /* Assets.xcassets */,
@@ -178,6 +183,7 @@
 				0B49B9021FC329D400C4A8FC /* DrinkableProtocol.swift */,
 				0B49B9041FC32D8A00C4A8FC /* drinkable.swift */,
 				0B1FE76B1FA21F9C00123DCB /* Controller */,
+				0B37D6B11FFFDE6C006C1AF2 /* BucketItem.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -276,6 +282,7 @@
 			files = (
 				0B2230A41FE176F800B2D61B /* StarField.sks in Resources */,
 				0B1FE7641FA21F7500123DCB /* LaunchScreen.storyboard in Resources */,
+				0B37D6B41FFFDEC8006C1AF2 /* bucket.csv in Resources */,
 				0B1FE7611FA21F7500123DCB /* Assets.xcassets in Resources */,
 				0B1FE75F1FA21F7500123DCB /* Main.storyboard in Resources */,
 			);
@@ -292,6 +299,7 @@
 				0B49B9031FC329D400C4A8FC /* DrinkableProtocol.swift in Sources */,
 				0B2230AC1FE1778000B2D61B /* Invader.swift in Sources */,
 				0B297D591FD99C9700EEC7ED /* ArtCell.swift in Sources */,
+				0B37D6B21FFFDE6C006C1AF2 /* BucketItem.swift in Sources */,
 				0B37D6AD1FFFDC69006C1AF2 /* DataViewController.swift in Sources */,
 				0B17612B1FCF0AC700AB834C /* InternetMasterViewController.swift in Sources */,
 				0B37D6AF1FFFDCD2006C1AF2 /* BucketItemCell.swift in Sources */,
