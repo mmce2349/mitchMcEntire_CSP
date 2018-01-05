@@ -13,7 +13,7 @@
         <!--Internet Detail View Controller-->
         <scene sceneID="bYn-Xd-JFY">
             <objects>
-                <viewController id="bWY-Rr-Z0r" customClass="internetDetailViewController" sceneMemberID="viewController">
+                <viewController id="bWY-Rr-Z0r" customClass="InternetDetailViewController" customModule="mitchMcEntire_CSP" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5gU-en-sP2">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -50,7 +50,7 @@
         <!--Root View Controller-->
         <scene sceneID="8Lh-Ks-8s5">
             <objects>
-                <tableViewController clearsSelectionOnViewWillAppear="NO" id="cT2-0W-ZZ4" customClass="InternetMasterViewController" sceneMemberID="viewController">
+                <tableViewController clearsSelectionOnViewWillAppear="NO" id="cT2-0W-ZZ4" customClass="InternetMasterViewController" customModule="mitchMcEntire_CSP" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="OMn-FI-kVR">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -583,6 +583,6 @@ Severity of illness, greatest concentration of people with aids, and individual 
         <image name="javaSample" width="1126" height="754"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="dem-hu-cK2"/>
+        <segue reference="H6h-BJ-eEO"/>
     </inferredMetricsTieBreakers>
 </document>
