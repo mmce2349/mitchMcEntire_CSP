@@ -151,8 +151,8 @@
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tz2-QB-ICp">
-                                            <rect key="frame" x="325" y="20" width="42" height="19"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tz2-QB-ICp">
+                                            <rect key="frame" x="325" y="20" width="42" height="22"/>
                                             <attributedString key="attributedText">
                                                 <fragment content="Label">
                                                     <attributes>
@@ -169,6 +169,11 @@
                                         <constraint firstItem="YoA-Yo-dud" firstAttribute="leading" secondItem="xvd-SH-nJ4" secondAttribute="trailing" constant="20" id="hTo-rG-ax9"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="bucketItemSignature" destination="tz2-QB-ICp" id="ayJ-6H-fUE"/>
+                                    <outlet property="bucketItemSymbol" destination="xvd-SH-nJ4" id="hf7-0w-D4e"/>
+                                    <outlet property="bucketItemText" destination="YoA-Yo-dud" id="dkG-ME-aWp"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
