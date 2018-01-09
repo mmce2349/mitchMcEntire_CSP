@@ -182,8 +182,8 @@
 				0B2230A91FE1778000B2D61B /* Projectile.swift */,
 				0B49B9021FC329D400C4A8FC /* DrinkableProtocol.swift */,
 				0B49B9041FC32D8A00C4A8FC /* drinkable.swift */,
-				0B1FE76B1FA21F9C00123DCB /* Controller */,
 				0B37D6B11FFFDE6C006C1AF2 /* BucketItem.swift */,
+				0B1FE76B1FA21F9C00123DCB /* Controller */,
 			);
 			path = Model;
 			sourceTree = "<group>";
