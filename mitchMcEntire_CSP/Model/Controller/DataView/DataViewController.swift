@@ -23,7 +23,7 @@ class DataViewController : UITableViewController
             do
             {
                 let input = try String(contentsOf: filePath)
-                let bucketLInes = input.components(separatedBy: ",")
+                let bucketLines = input.components(separatedBy: ",")
                 for line in bucketLines
                 {
                     let item = line.components(seperatedBy: ",")
