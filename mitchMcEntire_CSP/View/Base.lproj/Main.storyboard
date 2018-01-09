@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="fnu-rA-jUo">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -45,7 +45,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Sdc-JU-TEY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1958" y="-491"/>
+            <point key="canvasLocation" x="2296.8000000000002" y="-491.60419790104953"/>
         </scene>
         <!--Root View Controller-->
         <scene sceneID="8Lh-Ks-8s5">
@@ -194,75 +194,75 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ft8-44-4zy">
-                                <rect key="frame" x="263" y="20" width="84" height="56"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Internet"/>
-                                <connections>
-                                    <segue destination="nJX-OM-WYO" kind="show" id="QNv-0t-8c6"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6US-ld-nq3">
-                                <rect key="frame" x="184" y="113" width="144" height="46"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Abstraction page"/>
-                                <connections>
-                                    <segue destination="dVf-62-eXx" kind="show" id="ULH-pi-Vyu"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DfS-gY-iKR">
-                                <rect key="frame" x="202" y="185" width="126" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Impact page"/>
-                                <connections>
-                                    <segue destination="b2v-O7-SO3" kind="show" id="yr7-Bz-xnn"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cPY-wT-Uhc">
-                                <rect key="frame" x="209" y="223" width="119" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Algorithms page"/>
-                                <connections>
-                                    <segue destination="bzV-KK-orb" kind="show" id="mMg-vn-Vuu"/>
-                                </connections>
-                            </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jbW-We-y7y" customClass="DrawingView" customModule="mitchMcEntire_CSP" customModuleProvider="target">
                                 <rect key="frame" x="16" y="320" width="359" height="327"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UV1-oz-e75">
-                                <rect key="frame" x="245" y="261" width="102" height="30"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="LU4-oR-mFA">
+                                <rect key="frame" x="140" y="20" width="95" height="270"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="creativity"/>
-                                <connections>
-                                    <segue destination="4yW-iL-WVR" kind="show" id="7Qf-Dm-5Lx"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kbJ-69-wKE">
-                                <rect key="frame" x="42" y="46" width="120" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Programming"/>
-                                <connections>
-                                    <segue destination="a8m-O2-8sV" kind="show" id="9az-E2-eRe"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zkq-nr-y8I">
-                                <rect key="frame" x="42" y="101" width="46" height="46"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Data"/>
-                                <connections>
-                                    <segue destination="mNi-aV-hf5" kind="show" id="8kV-OE-GsN"/>
-                                </connections>
-                            </button>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ft8-44-4zy">
+                                        <rect key="frame" x="20.5" y="0.0" width="54" height="30"/>
+                                        <state key="normal" title="Internet"/>
+                                        <connections>
+                                            <segue destination="nJX-OM-WYO" kind="show" id="QNv-0t-8c6"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kbJ-69-wKE">
+                                        <rect key="frame" x="1" y="40" width="93" height="30"/>
+                                        <state key="normal" title="Programming"/>
+                                        <connections>
+                                            <segue destination="a8m-O2-8sV" kind="show" id="9az-E2-eRe"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zkq-nr-y8I">
+                                        <rect key="frame" x="31.5" y="80" width="32" height="30"/>
+                                        <state key="normal" title="Data"/>
+                                        <connections>
+                                            <segue destination="mNi-aV-hf5" kind="show" id="8kV-OE-GsN"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6US-ld-nq3">
+                                        <rect key="frame" x="7.5" y="120" width="80" height="30"/>
+                                        <state key="normal" title="Abstraction"/>
+                                        <connections>
+                                            <segue destination="dVf-62-eXx" kind="show" id="ULH-pi-Vyu"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DfS-gY-iKR">
+                                        <rect key="frame" x="0.0" y="160" width="95" height="30"/>
+                                        <state key="normal" title="Global Impact"/>
+                                        <connections>
+                                            <segue destination="b2v-O7-SO3" kind="show" id="yr7-Bz-xnn"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cPY-wT-Uhc">
+                                        <rect key="frame" x="10" y="200" width="75" height="30"/>
+                                        <state key="normal" title="Algorithms"/>
+                                        <connections>
+                                            <segue destination="bzV-KK-orb" kind="show" id="mMg-vn-Vuu"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UV1-oz-e75">
+                                        <rect key="frame" x="16" y="240" width="63" height="30"/>
+                                        <state key="normal" title="creativity"/>
+                                        <connections>
+                                            <segue destination="4yW-iL-WVR" kind="show" id="7Qf-Dm-5Lx"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" id="XdE-sB-Bha"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="71.200000000000003" y="12.143928035982009"/>
+            <point key="canvasLocation" x="410.39999999999998" y="12.143928035982009"/>
         </scene>
         <!--Abstraction Controller-->
         <scene sceneID="RV2-Hr-SMZ">
@@ -623,7 +623,7 @@ Severity of illness, greatest concentration of people with aids, and individual 
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bhy-bF-ORr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1054" y="38"/>
+            <point key="canvasLocation" x="1392.8" y="37.331334332833585"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ufm-C4-HWM">
@@ -642,6 +642,24 @@ Severity of illness, greatest concentration of people with aids, and individual 
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Rb-8u-LKj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="860" y="887"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Bw2-RX-QfP">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="fnu-rA-jUo" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="wXR-cM-M0J">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="7Cd-Du-wbB"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="s9C-8c-joF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-316" y="11"/>
         </scene>
     </scenes>
     <resources>
