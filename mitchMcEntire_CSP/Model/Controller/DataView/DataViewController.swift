@@ -23,10 +23,10 @@ class DataViewController : UITableViewController
             do
             {
                 let input = try String(contentsOf: filePath)
-                let bucketLines = input.components(separatedBy: ",")
+                let bucketLines = input.components(separatedBy: "\n")
                 for line in bucketLines
                 {
-                    let item = line.components(seperatedBy: ",")
+                    let item = line.components(separatedBy: ",")
                     items.append(BucketItem(contents: item[0], author: item[0]))
                 }
             }
@@ -50,7 +50,7 @@ class DataViewController : UITableViewController
     override public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
     {
     let currentCell = tableView.dequeueReusableCell(withIdentifier: "dataIdentifier", for: indexPath) as! BucketItemCell
-    currentCell.bucketItem.bucketList[indexPath.row]
+    currentCell.bucketItem = bucketList[indexPath.row]
     
     return currentCell
     }
